@@ -3,3 +3,5 @@
 </script>
 
 <PageTitle title="About" />
+
+<p>This is the About page.</p>

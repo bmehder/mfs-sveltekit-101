@@ -29,8 +29,7 @@
 		align-items: center;
 		gap: 1.5em;
 		margin-inline: auto;
-		padding-block: 1.5em;
-		padding-inline: 3em;
+		padding: 2em;
 	}
 	
 	p {

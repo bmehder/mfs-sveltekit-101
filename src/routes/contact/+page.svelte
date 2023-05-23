@@ -3,3 +3,5 @@
 </script>
 
 <PageTitle title="Contact" />
+
+<p>This is the Contact page.</p>

@@ -22,7 +22,6 @@
 		grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
 		gap: 3em;
 		margin-inline: auto;
-		padding: 3em;
 		line-height: 1.5;
 	}
 </style>

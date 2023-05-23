@@ -16,10 +16,7 @@
 
 <style>
   .post {
-    display: grid;
-    gap: 1.5rem;
     max-width: 64rem;
-    margin-block-end: 4rem;
     margin-inline: auto;
     color: white;
     overflow: auto;

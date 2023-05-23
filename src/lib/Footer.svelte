@@ -16,7 +16,7 @@
 	div {
 		max-width: 64em;
 		margin-inline: auto;
-		padding-block: 3em;	
+		padding-block: 2em;	
 		padding-inline: 1.5em;	
 		text-align: center;
 	}

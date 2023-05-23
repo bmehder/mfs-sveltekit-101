@@ -19,13 +19,14 @@
     min-height: 100dvh;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    line-height: 1.5;
   }
-  
   main {
+    width: 100%;
     max-width: 64em;
     margin-inline: auto;
-    overflow: auto;
+    padding: 2rem;
+    line-height: 1.5;
+    overflow: auto; 
     color: white;
   }
 </style>
