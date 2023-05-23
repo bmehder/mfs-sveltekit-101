@@ -13,12 +13,3 @@
     {@html data.post.excerpt}
   </div>
 </div>
-
-<style>
-  .post {
-    max-width: 64rem;
-    margin-inline: auto;
-    color: white;
-    overflow: auto;
-  }
-</style>
