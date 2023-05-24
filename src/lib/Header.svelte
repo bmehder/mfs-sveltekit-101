@@ -21,8 +21,8 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		gap: 1.5em;
-		padding: 1.5em;
+		gap: var(--size);
+		padding: var(--size);
 	}
 	
 	.logo {
@@ -33,7 +33,7 @@
 	
 	ul {
 		display: flex;
-		gap: 1.5em;
+		gap: var(--size);
 		list-style: none;
 	}
 </style>

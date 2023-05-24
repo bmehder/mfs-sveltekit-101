@@ -26,10 +26,10 @@
   }
   
   .content {
-    padding: 1.5rem;
+    padding: var(--size);
   }
 
 	.content :global(p + p) {
-		margin-block-start: 1.5rem;
+		margin-block-start: var(--size);
 	}
 </style>

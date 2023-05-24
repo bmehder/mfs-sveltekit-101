@@ -13,7 +13,6 @@
 
 <style>
   .inner {
-    padding-block: 2em;
     text-align: center;
   }
 </style>
