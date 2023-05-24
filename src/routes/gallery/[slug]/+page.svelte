@@ -4,12 +4,12 @@
   export let data
 </script>
 
-<div class="post">
+<div class="flow">
   <PageTitle title={data.post.title} />
 
   <img src={data.post.featured_image} alt={data.post.title} />
 
-  <div class="content">
+  <div>
     {@html data.post.excerpt}
   </div>
 </div>
