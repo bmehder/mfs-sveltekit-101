@@ -22,7 +22,7 @@
 		justify-content: space-between;
 		align-items: center;
 		gap: var(--size);
-		padding: var(--size);
+		padding: calc(var(--size) * 2);
 	}
 	
 	.logo {
@@ -33,7 +33,7 @@
 	
 	ul {
 		display: flex;
-		gap: var(--size);
+		gap: 1.5em;
 		list-style: none;
 	}
 </style>

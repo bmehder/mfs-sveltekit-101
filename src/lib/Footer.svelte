@@ -13,6 +13,7 @@
 
 <style>
   .inner {
+    padding-block: calc(var(--size) * 2);
     text-align: center;
   }
 </style>

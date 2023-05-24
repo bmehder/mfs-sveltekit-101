@@ -24,8 +24,8 @@
     width: 100%;
     max-width: var(--max-width);
     margin-inline: auto;
-    padding-block: 4rem;
-    padding-inline: 2rem;
+    padding-block: calc(var(--size) * 4);
+    padding-inline: calc(var(--size) * 2);
     color: var(--light);
     line-height: 1.5;
     overflow: auto; 
