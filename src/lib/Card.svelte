@@ -7,27 +7,26 @@
 
 <li class="bg-light">
   <a href="/gallery/{slug}">
-    <img class="square" src={featured_image} alt="placeholder" />
+    <img class="square" src={featured_image} alt="{title}" />
   </a>
-  <div class="content">
+  <div class="content flow">
     <a href="/gallery/{slug}">
 			<h2>{@html title}</h2>
 		</a>
-    <p>{@html excerpt}</p>
-    <a class="button" href="/gallery/{slug}">{buttonText}</a>
+    <div>{@html excerpt}</div>
+    <a class="button" href="/gallery/{slug}">
+      {buttonText}
+    </a>
   </div>
 </li>
 
 <style>
   li {
-    margin-inline: auto;
     list-style: none;
   }
-
+  
   .content {
-    display: grid;
-    gap: 1.5em;
-    padding: 1.5em;
+    padding: 1.5rem;
   }
 
 	.content :global(p + p) {

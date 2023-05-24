@@ -2,7 +2,7 @@
 	export let logo = "Fallback"
 </script>
 
-<header>
+<header class="bg-accent">
 	<div class="inner">		
 		<a class="logo" href="/">{logo}</a>
 		<nav>
@@ -17,23 +17,12 @@
 </header>
 
 <style>
-	header {
-		background-color: tomato;
-		color: white;
-	}
-	
 	.inner {
-		max-width: 64em;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		gap: 1.5em;
-		margin-inline: auto;
 		padding: 1.5em;
-	}
-
-	a {
-		color: white;
 	}
 	
 	.logo {

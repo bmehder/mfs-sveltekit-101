@@ -22,12 +22,12 @@
   }
   main {
     width: 100%;
-    max-width: 64em;
+    max-width: var(--max-width);
     margin-inline: auto;
-    padding-block: 3rem;
+    padding-block: 4rem;
     padding-inline: 2rem;
+    color: var(--light);
     line-height: 1.5;
-    color: white;
     overflow: auto; 
   }
 </style>

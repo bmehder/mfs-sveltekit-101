@@ -9,19 +9,8 @@
 
 <PageTitle title="Gallery" />
 
-<ul>
+<ul class="auto-grid">
 	{#each data.posts.posts as post}
 		<Card {post} buttonText="Read More" />
 	{/each}
 </ul>
-
-<style>
-  ul {
-		max-width: 64em;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
-		gap: 3em;
-		margin-inline: auto;
-		line-height: 1.5;
-	}
-</style>
