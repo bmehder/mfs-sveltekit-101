@@ -72,7 +72,7 @@ a:hover {
 .auto-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(16em, 1fr));
-  gap: 3rem;
+  gap: calc(var(--size) * 2);
 }
 
 .inner {
